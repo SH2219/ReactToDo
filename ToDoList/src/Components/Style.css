@@ -1,0 +1,75 @@
+.toDoForm {
+  justify-content: center !important;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.wrapper {
+  margin-left: 430px;
+  background: #1a1a40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 40rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 2px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #cacacab1;
+}
+
+.todoBtn {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-left: 2rem;
+}
+
+.ToDo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8758ff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  width: 28rem;
+  margin-left: 80px;
+  height: 2.5rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+  cursor: pointer;
+}
+
+.ed{
+    margin-left: 0.75rem;
+    cursor: pointer;
+  }
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through!important;
+  cursor: pointer!important;
+}
